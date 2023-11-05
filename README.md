@@ -7,6 +7,18 @@ Exemplos de aplicativos Ginga utilizando NCL e Lua. A máquina que roda os aplic
 
 ## Como executar
 
+```bash
+
+docker build -t telemidia-ginga .
+
+docker run --name ginga -e DISPLAY=<X Server IP Address : PORT> -v <path/to>/examples:/work-dir/examples -it telemidia-ginga:latest bash
+
+```
+
+### Windows
+
+Instalar [VcXsrv Windows X Server](https://sourceforge.net/projects/vcxsrv/)
+
 ## Capturas de Tela
 
 ## Licença

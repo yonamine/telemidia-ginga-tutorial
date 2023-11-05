@@ -1,8 +1,3 @@
-#
-# docker build -t telemidia-ginga .
-# docker run --name ginga -e DISPLAY=172.21.112.1:0.0 -v C:/Users/user/iCloudDrive/Projects/FRANK/Docker-Telemidia-Ginga/examples:/work-dir/examples -it --rm telemidia-ginga:latest bash
-#
-#
 FROM ubuntu:latest
 LABEL Description="Telemidia - Ginga"
 ENV DISPLAY=:0
